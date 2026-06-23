@@ -1,0 +1,59 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# ASP.NET
+appsettings.Development.json
+appsettings.Local.json
+
+# Secrets
+secrets.json
+.env
+.env.*
+
+# NuGet
+*.nupkg
+packages/
+
+# Publish
+publish/
+wwwroot/uploads/
+
+# Test Results
+TestResults/
+coverage/
+*.coverage
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Node (αν βάλεις frontend tooling)
+node_modules/
+
+# Blazor
+wwwroot/_framework/
+
+# Docker
+docker-compose.override.yml
+
+# EF Core
+*.db
+*.sqlite
+*.sqlite3
